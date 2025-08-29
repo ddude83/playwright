@@ -109,17 +109,17 @@ To quickly evaluate code use `DEBUG CONSOLE`.
 
 - import:
   ```typescript
-  import { test, expect } from '@playwright/test';
+  import { test, expect } from "@playwright/test";
   ```
 - test:
   ```typescript
-  test('test description', async ({ page }) => {
+  test("test description", async ({ page }) => {
     //your code
   });
   ```
 - describe:
   ```typescript
-  test.describe('Group description', () => {
+  test.describe("Group description", () => {
     //your code
   });
   ```
@@ -151,7 +151,6 @@ To quickly evaluate code use `DEBUG CONSOLE`.
 - install Prettier  
   `npm install --save-dev --save-exact prettier`
 - configure Prettier
-
   - exlude files in `.prettierignore`
 
     ```
@@ -183,6 +182,7 @@ To quickly evaluate code use `DEBUG CONSOLE`.
   `"test:pulpit:hd" : "npm run test tests/pulpit.spec.ts -- --headed"`
 
 Scripts can be run in standard and debug mode by:
+
 - hovering over script name and using opition **Run**
 - entering command `npm run script_name` i.e. `npm run test`
 - using `NPM Scripts` tab in **Explorer** view (need to be enabled in **EXPLORER** settings)
