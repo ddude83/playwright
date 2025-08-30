@@ -1,6 +1,4 @@
-export const userId = "testerLO";
-
 export const loginData = {
-  userId: "testerLO",
-  password: "10987654",
+  userId: 'testerLO',
+  userPassword: '10987654',
 };
